@@ -17,10 +17,11 @@ public class GulimallCorsConfiguration {
     @Bean
     public CorsWebFilter corsWebFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        CorsConfiguration corsConfiguration = new CorsConfiguration();
+        CorsConfiguration corsConfiguration = new   CorsConfiguration();
         // 1、配置跨域
 
-
+        //test1
+        //test2
         corsConfiguration.addAllowedHeader("*");
         corsConfiguration.addAllowedMethod("*");
         corsConfiguration.addAllowedOrigin("*");
