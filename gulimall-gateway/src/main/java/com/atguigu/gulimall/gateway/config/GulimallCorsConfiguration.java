@@ -21,7 +21,7 @@ public class GulimallCorsConfiguration {
         // 1、配置跨域
 
         //test1
-
+        //test2
         corsConfiguration.addAllowedHeader("*");
         corsConfiguration.addAllowedMethod("*");
         corsConfiguration.addAllowedOrigin("*");
