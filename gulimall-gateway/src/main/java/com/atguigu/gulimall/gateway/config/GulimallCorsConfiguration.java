@@ -17,7 +17,7 @@ public class GulimallCorsConfiguration {
     @Bean
     public CorsWebFilter corsWebFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        CorsConfiguration corsConfiguration = new   CorsConfiguration();
+        CorsConfiguration corsConfiguration = new CorsConfiguration();
         // 1、配置跨域
 
         //test1
@@ -31,6 +31,7 @@ public class GulimallCorsConfiguration {
         return new CorsWebFilter(source);
 
         //master11
-        //dev1
+        //dev2
+        //dev2
     }
 }
