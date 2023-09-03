@@ -35,5 +35,7 @@ public class GulimallCorsConfiguration {
         //dev2
 
         //master
+
+        //dev2
     }
 }
