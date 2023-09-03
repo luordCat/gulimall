@@ -28,5 +28,7 @@ public class GulimallCorsConfiguration {
 
         source.registerCorsConfiguration("/**", corsConfiguration);
         return new CorsWebFilter(source);
+
+        //master11
     }
 }
